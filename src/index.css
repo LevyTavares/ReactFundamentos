@@ -1,0 +1,37 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  /*Background com uso de gradiente escuro*/
+  background: linear-gradient(135deg, #0f1419, #1d9bf0);
+  -webkit-font-smoothing: antialiased;
+  min-width: 320px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+    --primary: #1d9bf0;
+    --primary-light: #8ecdf7;
+    --primary-text: #0f1419;
+    --second-text: #536471;
+    --title: #0f1419;
+    --border: #cfd9de;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: var(--primary-text);
+}
+
+.App-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--title);
+  text-align: center;
+}
